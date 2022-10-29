@@ -117,8 +117,6 @@ html,body{
 }
 
 #home{
-    
-
     width: 100vw;
     height: 88vh;
     
@@ -165,6 +163,17 @@ html,body{
     justify-content: center;
 }
 
+.back-to-top-arrow{
+    height: 10vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotate(180deg);
+}
+
 #about{
     width: 100vw;
     height: 100vh;
@@ -172,6 +181,10 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    
+
+   
 }
 
 .about-content{
@@ -434,6 +447,15 @@ html,body{
     justify-content: space-between;
 }
 
+.project-card-tags{
+    width: 100%;
+    height: 1.5rem;
+}
+.project-card-tags img{
+    height: 90%;
+    margin-right: 0.6rem;
+}
+
 .project-card-button{
     width: 100%;
     height: 25%;
@@ -466,8 +488,668 @@ html,body{
     font-family: 'sfprobold';
 }
 
+.em-breve .locked{
+    position: absolute;
+    width: 3rem;
+    filter: invert(1);
+    
+}
+
+.em-breve .project-card-title, .em-breve .project-card-content, .em-breve .project-card-tags{
+    filter: blur(0.4rem);
+}
+
 .project-card-title h2{
     display: flex;
     align-items: center;
     margin: 0;
 }
+#contact{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content{
+    width: 100%;
+    height: 90%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-title{
+    width: 100%;
+    height: 20%;
+
+    color: white;
+    font-family: 'sfprobold';
+    font-size: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-title-bar{
+    background-color: #DBFD00;
+    width: 10rem;
+    height: 0.4rem;
+}
+
+.contact-buttons{
+    width: 76%;
+    height: 50%;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.contact-button{
+    width: 34%;
+    height: 25%;
+    color: #CDCDCD;
+    border: 0.2rem solid #CDCDCD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 3rem;
+
+    cursor: pointer;
+
+    background-color: #0D1117;
+}
+
+
+.contact-button-img{
+    height: 70%;
+    width: 40%;
+    margin-left: -2rem;
+}
+
+.contact-button-title{
+    font-size: 1.5rem;
+    width: 60%;
+
+   
+   
+    text-align: center;
+}
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* ----------------------SMARTPHONE------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+/* --------------------------------------------------------- */
+
+@media(max-width: 574px) {
+    
+  .letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+  }
+
+  #word{
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30vw;
+    font-family: 'Share Tech Mono', monospace;
+  }
+
+.text-neon{
+    color: #DBFD00;
+}
+
+.text-gray{
+    color: #cdcdcd;
+}
+
+.neon-arrow{
+    height: 4rem;
+    cursor: pointer;
+}
+
+#menu{
+    width: 100vw;
+    height: 12vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+
+    cursor: pointer;
+    
+}
+.menu-items{
+    width: 40vw;
+    display: none;
+    justify-content: space-evenly;
+
+    font-size: 1.1rem;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: #CDCDCD;
+    font-family: 'sfpromedium';
+}
+.menu-item:hover{
+    color: rgb(227, 227, 227);
+}
+
+.logo{
+    width: 40vw;
+    display: flex;
+    font-size: 1.2rem;
+    font-family: 'sfprobold';
+    margin-left: 3rem;
+    
+}
+
+#home{
+    width: 100vw;
+    height: 88vh;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: white;
+}
+
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 78vh;
+    width: 100vw;
+    
+}
+
+.home-text, .home-logo{
+    width: 80vw;
+}
+
+.home-text{
+    text-align: left;
+  
+}
+
+.home-logo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.home-arrow{
+    height: 10vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back-to-top-arrow{
+    height: 10vh;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: rotate(180deg);
+}
+
+#about{
+    width: 100vw;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5rem;
+    
+
+   
+}
+
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 92vw;
+    height: 80vh;
+
+   
+}
+
+.about-apple-window{
+    width: 100%;
+    height: 100%;
+}
+
+.about-apple-window-header{
+    width: 100%;
+    height: 8%;
+
+    background-color: #D7D8D7;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid rgb(168, 168, 168);
+
+    padding-left: 0.8rem;
+}
+.about-apple-window-header-circles{
+    display: flex;
+    width: 45%;
+}
+.about-apple-window-header-title{
+    font-family: 'sfpromedium';
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: #707070;
+}
+
+.about-apple-window-content{
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-apple-window-content-column{
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.about-apple-window-content-columns{
+    width: 100%;
+    height: 100%;
+
+    
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+
+.about-apple-window-circle-green, .about-apple-window-circle-red, .about-apple-window-circle-yellow{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 0.3rem;
+}
+
+.about-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+}
+
+.about-item-title{
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'sfpromedium';
+}
+.about-item-text{
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'sfproregular';
+}
+
+.about-apple-window-circle-green{
+    background-color: #28CB41;
+}
+.about-apple-window-circle-yellow{
+    background-color: #FFBE2F;
+}
+.about-apple-window-circle-red{
+    background-color: #FF6058;
+}
+
+#services{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content{
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.services-title{
+    width: 100%;
+    height: 20%;
+
+    color: white;
+    font-family: 'sfprobold';
+    font-size: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.services-title-bar{
+    background-color: #DBFD00;
+    width: 10rem;
+    height: 0.4rem;
+}
+
+.services-text{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+.services-icons{
+    
+    width: 60%;
+    height: 40%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.services-icons img{
+    height: 24px;
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.services-icons img:hover{
+    filter: sepia(66%) saturate(5629%) hue-rotate(12deg) brightness(104%) contrast(104%);
+    transition: 0.5s;
+}
+
+
+#projects{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-content{
+    width: 100%;
+    height: 90%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.projects-title{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 2rem;
+    color: white;
+    font-family: 'sfprobold';
+    font-size: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects-title-bar{
+    background-color: #DBFD00;
+    width: 10rem;
+    height: 0.4rem;
+}
+
+.projects-cards{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-card{
+    width: 25rem;
+    height: 21rem;
+    background-color: #0D1117;
+    color: white;
+    border-radius: 3rem;
+
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.project-card-title{
+    width: 85%;
+    height: 15%;
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+ 
+    font-family: 'sfpromedium';
+}
+
+.project-card-content{
+    width: 85%;
+    height: 70%;
+    font-size: 1rem;
+    font-family: 'sfproregular';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-card-tags{
+    width: 100%;
+    height: 1.5rem;
+    
+}
+.project-card-tags img{
+    height: 90%;
+    margin-right: 0.6rem;
+}
+
+.project-card-button{
+    width: 100%;
+    height: 22%;
+    border: 0.18rem solid #D9D9D9;
+    color: #D9D9D9;
+    border-radius: 2.5rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    font-size: 1.3rem;
+
+    cursor: pointer;
+}
+
+.project-card-button:hover{
+    background-color: #DBFD00;
+    border: none;
+    color: #0D1117;
+}
+
+.neon-badge{
+    font-size: 0.9rem;
+    background-color: #DBFD00;
+    color: #0D1117;
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    margin-left: 0.6rem;
+    font-family: 'sfprobold';
+}
+
+.em-breve .locked{
+    position: absolute;
+    width: 3rem;
+    filter: invert(1);
+    
+}
+
+.em-breve .project-card-title, .em-breve .project-card-content, .em-breve .project-card-tags{
+    filter: blur(0.4rem);
+}
+
+.project-card-title h2{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+#contact{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content{
+    width: 100%;
+    height: 90%;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-title{
+    width: 100%;
+    height: 20%;
+
+    color: white;
+    font-family: 'sfprobold';
+    font-size: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-title-bar{
+    background-color: #DBFD00;
+    width: 10rem;
+    height: 0.4rem;
+}
+
+.contact-buttons{
+    width: 90%;
+    height: 50%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-button{
+    width: 90%;
+    height: 18%;
+    color: #CDCDCD;
+    border: 0.2rem solid #CDCDCD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-radius: 3rem;
+
+    cursor: pointer;
+
+    background-color: #0D1117;
+}
+
+
+.contact-button-img{
+    height: 60%;
+    width: 30%;
+    margin-left: 0.5rem;
+  
+}
+
+.contact-button-title{
+    font-size: 1.4rem;
+    width: 70%;
+
+   
+   
+    text-align: center;
+}
+
+
+}
+

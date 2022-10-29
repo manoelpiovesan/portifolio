@@ -15,7 +15,6 @@
     src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
 }
 
-
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 
 
@@ -661,7 +660,7 @@ html,body{
     display: flex;
     font-size: 1.2rem;
     font-family: 'sfprobold';
-    margin-left: 3rem;
+    margin-left: 1.3rem;
     
 }
 
@@ -685,7 +684,7 @@ html,body{
     align-items: center;
     flex-direction: column;
 
-    height: 78vh;
+    height: 68vh;
     width: 100vw;
     
 }
@@ -706,7 +705,7 @@ html,body{
 }
 
 .home-arrow{
-    height: 10vh;
+    height: 20vh;
     width: 100vw;
     
     display: flex;

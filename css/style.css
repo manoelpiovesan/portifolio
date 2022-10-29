@@ -561,17 +561,25 @@ html,body{
 .contact-button{
     width: 34%;
     height: 25%;
-    color: #CDCDCD;
+    color: #CDCDCD !important;
     border: 0.2rem solid #CDCDCD;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    text-decoration: none;
     border-radius: 3rem;
+
+    text-decoration: none;
+    color: #CDCDCD;
 
     cursor: pointer;
 
     background-color: #0D1117;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #CDCDCD;
 }
 
 
@@ -584,6 +592,8 @@ html,body{
 .contact-button-title{
     font-size: 1.5rem;
     width: 60%;
+
+    
 
    
    

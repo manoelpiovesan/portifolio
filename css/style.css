@@ -33,6 +33,7 @@ html,body{
 }
 
 
+
 /* @keyframes caret {
     50% {
       border-color: transparent;
@@ -50,6 +51,14 @@ html,body{
     border-right: .05em solid;
     animation: caret 1s steps(1) infinite;
   } */
+
+  .my-container{
+    margin-left: -2rem;
+  }
+
+  #menu{
+    margin-left: -2rem;
+  }
 
   .letter {
     display: inline-flex;

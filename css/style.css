@@ -221,6 +221,11 @@ html,body{
    
 }
 
+#about a{
+    color: #839700;
+    text-decoration: none;
+}
+
 .about-content{
     display: flex;
     justify-content: center;

@@ -24,6 +24,11 @@
     font-family: 'mozart';
     src: url(fonts/mozart.ttf);
 }
+/* #DBFD00; */
+:root {
+    --neon: #DBFD00;
+    --white: #ffffff;
+}
 
 
 
@@ -82,7 +87,7 @@ html,body{
   }
 
 .text-neon{
-    color: #DBFD00;
+    color: var(--neon);
 }
 
 .text-gray{
@@ -118,7 +123,8 @@ html,body{
 .menu-item{
     text-decoration: none;
     color: #CDCDCD;
-    font-family: 'sfpromedium';
+    font-family: 'mozart';
+    font-size: 2rem;
 }
 .menu-item:hover{
     color: rgb(227, 227, 227);
@@ -127,8 +133,8 @@ html,body{
 .logo{
     width: 40vw;
     display: flex;
-    font-size: 2rem;
-    font-family: 'sfprobold';
+    font-size: 3rem;
+    font-family: 'mozart';
     margin-left: 3rem;
     
 }
@@ -258,7 +264,9 @@ html,body{
 
 .about-apple-window-content{
     width: 100%;
-    height: 92%;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     background-color: #f2f2f2;
 
     border-bottom-left-radius: 1.2rem;
@@ -299,6 +307,10 @@ html,body{
     margin: 0.3rem;
 }
 
+.gif-icon{
+    border-radius: 50%;
+}
+
 .about-item{
     width: 100%;
     display: flex;
@@ -308,12 +320,15 @@ html,body{
 
 .about-item-title{
     width: 100%;
-    font-size: 1.5rem;
+    
+    font-size: clamp(2rem, 1rem + 3vh, 2.5rem);
     font-family: 'sfpromedium';
 }
 .about-item-text{
     width: 100%;
-    font-size: 1rem;
+    font-size: 1.6rem;
+
+    font-size: clamp(1rem, 1.2rem, 1.6rem);
     font-family: 'sfproregular';
 }
 
@@ -361,7 +376,7 @@ html,body{
 }
 
 .services-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
@@ -428,7 +443,7 @@ html,body{
 }
 
 .projects-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
@@ -502,14 +517,14 @@ html,body{
 }
 
 .project-card-button:hover{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     border: none;
     color: #0D1117;
 }
 
 .neon-badge{
     font-size: 0.9rem;
-    background-color: #DBFD00;
+    background-color: var(--neon);
     color: #0D1117;
     border-radius: 0.5rem;
     padding: 0.3rem;
@@ -568,7 +583,7 @@ html,body{
 }
 
 .contact-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
@@ -658,7 +673,7 @@ html,body{
   }
 
 .text-neon{
-    color: #DBFD00;
+    color: var(--neon);
 }
 
 .text-gray{
@@ -703,9 +718,9 @@ html,body{
 .logo{
     width: 40vw;
     display: flex;
-    font-size: 1.2rem;
-    font-family: 'sfprobold';
-    margin-left: 3.3rem;
+    font-size: 3rem;
+    font-family: 'mozart';
+    
     
 }
 
@@ -939,7 +954,7 @@ html,body{
 }
 
 .services-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
@@ -1010,7 +1025,7 @@ html,body{
 }
 
 .projects-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
@@ -1087,14 +1102,14 @@ html,body{
 }
 
 .project-card-button:hover{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     border: none;
     color: #0D1117;
 }
 
 .neon-badge{
     font-size: 0.9rem;
-    background-color: #DBFD00;
+    background-color: var(--neon);
     color: #0D1117;
     border-radius: 0.5rem;
     padding: 0.3rem;
@@ -1151,7 +1166,7 @@ html,body{
 }
 
 .contact-title-bar{
-    background-color: #DBFD00;
+    background-color: var(--neon);
     width: 10rem;
     height: 0.4rem;
 }
